@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.12.5)  24 JAN 2014 14:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.12.5)  24 JAN 2014 15:16
 entering extended mode
 **Protokoll.tex
-(C:\Users\Daniel\Documents\GitHub\XVSM\Protokoll.tex
+(C:\Users\Traxl\Desktop\Git\XVSM\Protokoll.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -479,7 +479,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Users\Daniel\Documents\GitHub\XVSM\Protokoll.aux)
+(C:\Users\Traxl\Desktop\Git\XVSM\Protokoll.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
@@ -547,8 +547,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Daniel\Documents\GitHub\XVSM\Protokoll.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (C:\Users\Traxl\Desktop\G
+it\XVSM\Protokoll.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -592,80 +592,87 @@ Kapitel 3.
 
 ]
 Kapitel 4.
+<./XVSM_UML_1.png, id=21, 2087.54906pt x 1078.78032pt>
+File: ./XVSM_UML_1.png Graphic file (type png)
+ <use ./XVSM_UML_1.png>
+Package pdftex.def Info: ./XVSM_UML_1.png used on input line 56.
+(pdftex.def)             Requested size: 313.69029pt x 162.08989pt.
+
+<./XVSM_UML_2.png, id=23, 1090.82532pt x 536.75531pt>
+File: ./XVSM_UML_2.png Graphic file (type png)
+ <use ./XVSM_UML_2.png>
+Package pdftex.def Info: ./XVSM_UML_2.png used on input line 62.
+(pdftex.def)             Requested size: 313.69029pt x 154.3528pt.
+
 [6
 
-]
+] [7 <C:/Users/Traxl/Desktop/Git/XVSM/XVSM_UML_1.png> <C:/Users/Traxl/Desktop/G
+it/XVSM/XVSM_UML_2.png>]
 Kapitel 5.
-[7
+[8
 
 ]
 Kapitel 6.
-<./CPU_Load_Telemetry_RMI.png, id=28, 654.19406pt x 487.06969pt>
+<./CPU_Load_Telemetry_RMI.png, id=36, 654.19406pt x 487.06969pt>
 File: ./CPU_Load_Telemetry_RMI.png Graphic file (type png)
 
 <use ./CPU_Load_Telemetry_RMI.png>
-Package pdftex.def Info: ./CPU_Load_Telemetry_RMI.png used on input line 63.
-(pdftex.def)             Requested size: 313.69029pt x 233.55296pt.
+Package pdftex.def Info: ./CPU_Load_Telemetry_RMI.png used on input line 75.
+(pdftex.def)             Requested size: 268.8813pt x 200.19037pt.
 
-<./Memory_RMI.png, id=30, 709.90219pt x 470.50781pt>
+<./Memory_RMI.png, id=37, 709.90219pt x 470.50781pt>
 File: ./Memory_RMI.png Graphic file (type png)
  <use ./Memory_RMI.png>
-Package pdftex.def Info: ./Memory_RMI.png used on input line 69.
-(pdftex.def)             Requested size: 313.69029pt x 207.9143pt.
+Package pdftex.def Info: ./Memory_RMI.png used on input line 81.
+(pdftex.def)             Requested size: 268.8813pt x 178.21329pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Thread_RMI.png, id=31, 689.57625pt x 476.53032pt>
+<./Thread_RMI.png, id=38, 689.57625pt x 476.53032pt>
 File: ./Thread_RMI.png Graphic file (type png)
  <use ./Thread_RMI.png>
-Package pdftex.def Info: ./Thread_RMI.png used on input line 75.
-(pdftex.def)             Requested size: 313.69029pt x 216.778pt.
+Package pdftex.def Info: ./Thread_RMI.png used on input line 87.
+(pdftex.def)             Requested size: 268.8813pt x 185.80972pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./CPU_XVSM.png, id=32, 648.92438pt x 449.42906pt>
+[9
+
+ <C:/Users/Traxl/Desktop/Git/XVSM/CPU_Load_Telemetry_RMI.png> <C:/Users/Traxl/D
+esktop/Git/XVSM/Memory_RMI.png>]
+<./CPU_XVSM.png, id=44, 648.92438pt x 449.42906pt>
 File: ./CPU_XVSM.png Graphic file (type png)
  <use ./CPU_XVSM.png>
-Package pdftex.def Info: ./CPU_XVSM.png used on input line 87.
-(pdftex.def)             Requested size: 313.69029pt x 217.25961pt.
+Package pdftex.def Info: ./CPU_XVSM.png used on input line 100.
+(pdftex.def)             Requested size: 268.8813pt x 186.22154pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./Thread_XVSM.png, id=33, 545.78906pt x 451.6875pt>
+<./Thread_XVSM.png, id=45, 545.78906pt x 451.6875pt>
 File: ./Thread_XVSM.png Graphic file (type png)
  <use ./Thread_XVSM.png>
-Package pdftex.def Info: ./Thread_XVSM.png used on input line 93.
-(pdftex.def)             Requested size: 313.69029pt x 259.60802pt.
+Package pdftex.def Info: ./Thread_XVSM.png used on input line 106.
+(pdftex.def)             Requested size: 268.8813pt x 222.52115pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8
-
- <C:/Users/Daniel/Documents/GitHub/XVSM/CPU_Load_Telemetry_RMI.png>] [9 <C:/Use
-rs/Daniel/Documents/GitHub/XVSM/Memory_RMI.png> <C:/Users/Daniel/Documents/GitH
-ub/XVSM/Thread_RMI.png>] [10 <C:/Users/Daniel/Documents/GitHub/XVSM/CPU_XVSM.pn
-g> <C:/Users/Daniel/Documents/GitHub/XVSM/Thread_XVSM.png>]
-(C:\Users\Daniel\Documents\GitHub\XVSM\Protokoll.aux) ) 
+[10 <C:/Users/Traxl/Desktop/Git/XVSM/Thread_RMI.png> <C:/Users/Traxl/Desktop/Gi
+t/XVSM/CPU_XVSM.png>] [11 <C:/Users/Traxl/Desktop/Git/XVSM/Thread_XVSM.png>]
+(C:\Users\Traxl\Desktop\Git\XVSM\Protokoll.aux) ) 
 Here is how much of TeX's memory you used:
- 4557 strings out of 493921
- 63532 string characters out of 3147279
- 153001 words of memory out of 3000000
- 7782 multiletter control sequences out of 15000+200000
+ 4569 strings out of 493921
+ 63704 string characters out of 3147282
+ 153022 words of memory out of 3000000
+ 7792 multiletter control sequences out of 15000+200000
  48822 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,850b,357s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX
- 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Protokoll.pdf (10 pages, 510621 bytes).
+{C:/Program Files/MiKTeX 2.9/f
+onts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Protokoll.pdf (11 pages, 1064100 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
