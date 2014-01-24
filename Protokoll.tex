@@ -57,28 +57,48 @@
 	Ein gro"ses Problem das wir vorfanden war, dass das Mozartspaces System bei jeder Verbindung neue Threads erzeugt welche weiter wartend waren nachdme die Verbindung beendet wurde so sammelte sich eine Unzahl an TCP-Connection Threads an wenn das System zuviele Anfragen bekommen hat.
 	
 \chapter{Benchmarks}
-	Die Benchmarks mit RMI Autofabrik.
-\begin{figure}
+	\section{Unter RMI}
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{./telemetry_5}
+\includegraphics[width=0.7\linewidth]{./CPU_Load_Telemetry_RMI}
 \caption{}
-\label{fig:telemetry_5}
-\end{figure}	
-
-\begin{figure}
+\label{fig:CPU_Load_Telemetry_RMI}
+\end{figure}
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{./telemetry_6}
+\includegraphics[width=0.7\linewidth]{./Memory_RMI}
 \caption{}
-\label{fig:telemetry_6}
+\label{fig:Memory_RMI}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./Thread_RMI}
+\caption{}
+\label{fig:Thread_RMI}
 \end{figure}
 
 
-\begin{figure}
+
+
+\section{XVSM}
+
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{./telemetry_4}
+\includegraphics[width=0.7\linewidth]{./CPU_XVSM}
 \caption{}
-\label{fig:telemetry_4}
+\label{fig:CPU_XVSM}
 \end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{./Thread_XVSM}
+\caption{}
+\label{fig:Thread_XVSM}
+\end{figure}
+
+
+
+
+
 
 
 \end{document}

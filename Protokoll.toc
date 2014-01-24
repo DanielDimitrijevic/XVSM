@@ -5,3 +5,5 @@
 \contentsline {chapter}{\numberline {4}UML}{6}
 \contentsline {chapter}{\numberline {5}Arbeitsdurchf\IeC {\"u}hrung}{7}
 \contentsline {chapter}{\numberline {6}Benchmarks}{8}
+\contentsline {section}{\numberline {6.1}Unter RMI}{8}
+\contentsline {section}{\numberline {6.2}XVSM}{8}
