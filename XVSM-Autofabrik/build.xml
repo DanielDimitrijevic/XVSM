@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="autofabrik" default="compile" basedir=".">
+
+	<property name="src.dir" value="src" />
+	<property name="build.dir" value="bin" />
+	<property name="lib.dir" value="lib" />
+	<property name="id" value="default" />
+	<property name="delay" value="500" />
+
+	<path id="project.classpath">
+		<pathelement location="${build.dir}" />
+	</path>
+
+	<target name="compile" description="Compile project.">
+		<mkdir dir="${build.dir}" />
+		<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="project.classpath" debug="true" deprecation="true" includeantruntime="false" />
+	</target>
+
+	<target name="run-gui" depends="compile" description="Run server.">
+		<java classname="gui.ToyCarFactory" fork="true" classpathref="project.classpath">
+			<sysproperty value="java.policy" key="java.security.policy"></sysproperty>
+		</java>
+	</target>
+
+	<target name="run-assembly" depends="compile" description="Run assembly.">
+		<java classname="fabrik.rmi.roboter.MontageRoboter" fork="true" classpathref="project.classpath">
+			<arg value="${id}" />
+			<arg value="${delay}" />
+		</java>
+	</target>
+
+	<target name="run-audit" depends="compile" description="Run audit.">
+		<java classname="fabrik.rmi.roboter.PruefRoboter" fork="true" classpathref="project.classpath">
+			<arg value="${id}" />
+			<arg value="${delay}" />
+		</java>
+	</target>
+
+	<target name="run-logistic" depends="compile" description="Run assembly.">
+		<java classname="fabrik.rmi.roboter.LogistikRoboter" fork="true" classpathref="project.classpath">
+			<arg value="${id}" />
+			<arg value="${delay}" />
+		</java>
+	</target>
+
+	<target name="clean" description="Clean build products.">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="rebuild" depends="clean, compile" description="Clean and build products." />
+
+</project>
