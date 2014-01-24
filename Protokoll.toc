@@ -1,0 +1,7 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Aufgabenstellung}{3}
+\contentsline {chapter}{\numberline {2}XVSM}{4}
+\contentsline {chapter}{\numberline {3}Arbeitsaufteilung}{5}
+\contentsline {chapter}{\numberline {4}UML}{6}
+\contentsline {chapter}{\numberline {5}Arbeitsdurchf\IeC {\"u}hrung}{7}
+\contentsline {chapter}{\numberline {6}Benchmarks}{8}
